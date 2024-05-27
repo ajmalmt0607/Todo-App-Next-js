@@ -4,7 +4,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "../styles/globals.css";
 
 export default function Home() {
     const [formData, setFormData] = useState({ title: "", description: "" });
