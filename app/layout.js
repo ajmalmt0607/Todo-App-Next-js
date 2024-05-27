@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
                 <Navbar />
                 {children}
             </body>
-        </html> //Now the Navbar available in all components
+        </html>
+        //Now the Navbar available in all components
     );
 }
