@@ -42,7 +42,7 @@ export default function Home() {
             }
         );
         toast.success(response.data.msg);
-        fetchTodos;
+        fetchTodos();
     };
 
     useEffect(() => {
