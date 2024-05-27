@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export const content = [
     "./pages/**/*.{js,ts,jsx,tsx,mdx,mjs}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx,mjs}",
+    "./Components/**/*.{js,ts,jsx,tsx,mdx,mjs}",
     "./app/**/*.{js,ts,jsx,tsx,mdx,mjs}",
 ];
 export const theme = {
